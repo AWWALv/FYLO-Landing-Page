@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(240, 75%, 98%);
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+}
+.header-links{
+    font-size: 2em;
+    
+}
+.header-links a{
+    text-decoration: none;
+   margin-right: 1.5em;
+    transition: 0.5s ease-in-out; 
+}
+.header-links a:hover{
+    transform: scale(1.2);
+    border-right: 2px solid hsl(243, 87%, 12%);
+    color: hsl(243, 87%, 12%);
+}
+.logo-img{
+    padding-left: 1.5em;
+    width: 15em;
+   
+   
+    
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 75%, 98%);
+}
+.main-box-2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.box-2{
+    text-align: center;
+}
+.box-2 h2{
+    font-size: 5em;
+    padding-top: 1.5em;
+    color:hsl(243, 87%, 12%);
+}
+.box-2 h4{
+    font-size: 2.5em;
+    padding-top: 1.5em;
+    color: hsl(238, 22%, 44%);
+}
+.input-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 0em 3.5em 0em;
+}
+.input-button input{
+    height:4em;
+   width: 30em;
+   font-size: 2rem;
+   margin: 1.5em 0em;
+   padding-left: 1.5em;
+   border: 1px solid black;
+}
+.input-button button{
+    height: 4em;
+   width: 30em;
+   background-color: hsl(224, 93%, 58%);
+   color: white;
+   font-size: 2rem;
+   border: none;
+}
+.input-button button:hover{
+    transform: scale(1.05);
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.box-3{
+
+}
+.box-4{
+    text-align: center;
+
+}
+.box-4 h2{
+    font-size: 3.7em;
+    padding-top: 1.5em;
+    color:hsl(243, 87%, 12%);
+}
+.box-4 h4{
+    font-size: 2.5em;
+    padding-top: 1.5em;
+    color: hsl(238, 22%, 44%);
+}
+.fylo-link-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0em;
+    
+}
+.fylo-link-arrow a{
+    font-size: 3.0em;
+    margin: 1.5em, 0em;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 3px solid hsl(170, 45%, 43%);
+    
+}
+.arrow{
+    width: 3.7em;
+    
+}
+.testimonial-box{
+    border:1px solid transparent;
+   display: block;
+   margin: 5em 8em;
+    background-image: url(./images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 3em;
+    background-position-y: 2em;
+    text-align: justify;
+    padding: 0em;
+    background-color: white;
+}
+.testimonial-box h5{
+    padding-top: 3em;
+    padding-left: 1.5em;
+    font-size: 1.8em;
+    color:  hsl(238, 22%, 44%);
+}
+.profile-box{
+    display: flex;
+    margin: 2em 0em 1em 0em;
+    align-items: center;
+}
+.profile-box img{
+    border-radius: 50%;
+}
+.profile-area{
+    text-align: justify;
+    padding-left: 1em;
+}
+.profile-area h3{
+    color:hsl(243, 87%, 12%);
+}
+.profile-area h5{
+    color: hsl(238, 22%, 44%);
+
+}
+.early-access{
+    text-align: center;
+    background-color: hsl(238, 22%, 44%);
+    padding: 2em 0em 8em 0em;
+
+}
+.early-access h2{
+    font-size: 3.7em;
+    padding-top: 1.5em;
+    color: white;
+
+}
+.early-access h4{
+    font-size: 1.9em;
+    padding-top: 1.5em;
+    color:  hsl(240, 75%, 98%);
+   
+}
+.input-button-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 0em 3.5em 0em;
+}
+.input-button-2 input{
+    height:4em;
+   width: 30em;
+   font-size: 2rem;
+   margin: 1.5em 0em;
+   padding-left: 1.5em;
+   border: 1px solid black;
+}
+.input-button-2 button{
+    height: 4em;
+   width: 30em;
+   background-color: hsl(224, 93%, 58%);
+   color: white;
+   font-size: 2rem;
+   border: none;
+}
+.input-button-2 button:hover{
+    background-color: hsl(243, 87%, 12%);
+
+}
+footer{
+    padding: 4em 1em;  
+    background-color: hsl(243, 87%, 12%);
+    color:  hsl(240, 75%, 98%);
+}
+.footer-contact{
+    display: flex;
+    font-size: 2em;
+    padding: 0.8em 0em 0.8em 1.5em ;
+
+}
+.footer-contact img{
+    width: 2em;
+}
+.footer-contact h4{
+    padding-left: 1.5em;
+  
+}
+.footer-links{
+    padding-left: 1.5em;
+    font-size: 2.5em;
+    color:  hsl(240, 75%, 98%);
+ 
+}
+.footer-logo-img{
+    padding-left: 2.5em;
+    width: 15em;
+   
+    
+}
+
+.footer-links a{
+    text-decoration: none;
+    color:  hsl(240, 75%, 98%);
+    transition: 0.5s ease-in-out;
+}
+.footer-links a:hover{
+    color: hsl(228, 45%, 44%);
+}
+.footer-links li{
+    list-style-type: none;
+    margin-top: 0.5em;
+}
+.footer-logos{
+    text-align: center;
+   
+}
+.fa-facebook{
+    font-size: 3em;
+}
+.fa-twitter{
+    font-size: 3em;
+}
+.fa-instagram{
+    font-size: 3em;
+}
+
+
+.attribution {
+    text-align: center; 
+    height: 4vh;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    
+}
+.attribution p{
+    font-size: 4em;
+    margin-top: 0em;
+
+}
+
+@media screen and (min-width:1440px) {
+    .main-box{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: hsl(240, 75%, 98%);
+        
+        justify-content: center;
+        height: 90vh;
+      
+
+        
+    }
+    .main-box-2{
+        display: flex;
+        flex-direction: row-reverse;
+        height: 100vh;
+        justify-content: center;
+        background-image:url(./images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: hsl(240, 75%, 98%);
+        
+        
+        align-items: center;
+      
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        align-items: center;
+    }
+    .box-1{
+        width: 50%;
+    }
+    .illustration{
+        width: 100%;
+    }
+    .box-2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+       padding-left: 5em;
+        
+        text-align: justify;
+        
+    }
+    .box-2 h2{
+        font-size: 2.5em;
+        padding-top: 0em;
+        padding-left: 0em;
+        color:hsl(243, 87%, 12%);
+       
+    }
+     
+    .box-2 h4{
+        font-size: 1.2em;
+        padding-top: 1em;
+        color: hsl(238, 22%, 44%);
+       
+        margin-left: 0em;
+    }
+   
+    .input-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: unset;
+        margin: 2em 0em 0em 0em;
+    }
+    .input-button input{
+        height:3.5em;
+        width: 20em;
+        font-size: 1rem;
+        margin:0em;
+        padding-left: 1em;
+        border: 1px solid black;
+    }
+    .input-button button{
+        height: 3.5em;
+        width: 10em;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        font-size: 1em;
+        margin: 0em 0em 0em 1em;
+        border: none;
+    }
+    .box-3{
+        width: 50%;
+     
+
+    }
+    .box-4{
+        width: 50%;
+    }
+    .box-4 h2{
+        font-size: 2.5em;
+        padding-top: 0em;
+        padding-left: 2.1em;
+        text-align: justify;
+        color:hsl(243, 87%, 12%);
+    }
+    .box-4 h4{
+        font-size: 1em;
+        padding-top: 1em;
+        color: hsl(238, 22%, 44%);
+        text-align: justify;
+        margin-left: 5em;
+    }
+    .fylo-link-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0em 0em 0em 5em;
+       
+       
+        
+    }
+    .fylo-link-arrow a{
+        font-size: 1.2em;
+        color: hsl(170, 45%, 43%);
+        text-decoration: none;
+        border-bottom: 3px solid hsl(170, 45%, 43%);
+        
+    }
+    .arrow{
+        width: 3.0em;
+        
+    }
+    .testimonial-box{
+        border:1px solid transparent;
+        margin: 2em 18em 0em 5em;
+        background-image: url(./images/icon-quotes.svg);
+        background-repeat: no-repeat;
+        background-size: 2em;
+        background-position-x: 3em;
+        background-position-y: 2em;
+        text-align: justify;
+        padding: 1em;
+        background-color: white;
+    }
+    .testimonial-box h5{
+        padding-top: 4em;
+        padding-left: 1.5em;
+        font-size: 0.8em;
+        color:  hsl(238, 22%, 44%);
+    }
+    .profile-box{
+        display: flex;
+        margin: 2em 0em 1em 0em;
+        align-items: center;
+    }
+    .profile-box img{
+        border-radius: 50%;
+        width: 50px;
+    }
+    .profile-area{
+        text-align: justify;
+        padding-left: 1em;
+    }
+    .profile-area h3{
+        color:hsl(243, 87%, 12%);
+    }
+    .profile-area h6{
+        color: hsl(238, 22%, 44%);
+    
+    }
+    .early-access{
+        text-align: justify;
+        background-color: hsl(238, 22%, 44%);
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0em;
+       
+    }
+    .early-access h2{
+        font-size: 2.7em;
+        padding-top: 0em;
+        color: white;
+    
+    }
+    .early-access h4{
+        font-size: 1em;
+        padding-top: 1.5em;
+        color:  hsl(240, 75%, 98%);
+       
+    }
+    .input-button-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20em;
+    }
+    .input-button-2 input{
+        height:2.5em;
+        width: 25em;
+        font-size: 1rem;
+        margin: 0em;
+        padding-left: 1em;
+        border: 1px solid black;
+    }
+    .input-button-2 button{
+        height: 2.5em;
+        width: 10em;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        font-size: 1em;
+        margin: 1em 15em 0em 0em;
+        border: none;
+     }
+  
+    footer{
+        padding: 4em 1em;  
+        background-color: hsl(243, 87%, 12%);
+        color:  hsl(240, 75%, 98%);
+        height: 50vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .footer-contact{
+        display: flex;
+        font-size: 1em;
+        padding: 0.8em 1.5em;
+        
+    
+    }
+    .footer-contact img{
+        width: 2em;
+    }
+    .footer-contact h4{
+        padding-left: 1em;
+      
+    }
+    .footer-links{
+        font-size: 1em;
+        color:  hsl(240, 75%, 98%);
+     
+    }
+    .footer-links a{
+        text-decoration: none;
+        color:  hsl(240, 75%, 98%);
+    }
+    .footer-links li{
+        list-style-type: none;
+        margin-top: 0.5em;
+    }
+    .attribution {
+        text-align: center; 
+        height: 2vh;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+        
+    }
+    .attribution p{
+        font-size: 2em;
+        margin-top: 0em;
+    
+    }
+    .fa-facebook{
+        font-size: 3em;
+    }
+    .fa-twitter{
+        font-size: 3em;
+    }
+    .fa-instagram{
+        font-size: 3em;
+    }
+}
+  
+
